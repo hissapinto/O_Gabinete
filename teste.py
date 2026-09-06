@@ -29,3 +29,11 @@ with open(os.path.join(pasta, f'votacoesVotos-{ano}.csv'), 'r', encoding='utf-8'
 
 df_votos = pd.read_csv(os.path.join(pasta, f'votacoesVotos-{ano}.csv'), sep=';', encoding='utf-8')
 df_votacoes = pd.read_csv(os.path.join(pasta, f'votacoes-{ano}.csv'), sep=';', encoding='utf-8')
+
+total_votacoes = df_votacoes['id'].nunique()
+print(f'Total de votações distintas: {total_votacoes}')
+
+plenario = df_votacoes[df_votacoes['siglaOrgao'] == 'PLEN'].shape[0]
+print(f'Votações de Plenário: {plenario}')
+
+print(df_votos['voto'].value_counts())
