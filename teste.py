@@ -23,3 +23,9 @@ for url in [url_votos, url_votacoes]:
             f.write(response.content)
     else:
         print(f'{nome_arquivo} já existe. Pulando download.')
+
+with open(os.path.join(pasta, f'votacoesVotos-{ano}.csv'), 'r', encoding='utf-8') as f:
+    print(f.readline())
+
+df_votos = pd.read_csv(os.path.join(pasta, f'votacoesVotos-{ano}.csv'), sep=';', encoding='utf-8')
+df_votacoes = pd.read_csv(os.path.join(pasta, f'votacoes-{ano}.csv'), sep=';', encoding='utf-8')
