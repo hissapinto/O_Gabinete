@@ -37,3 +37,8 @@ plenario = df_votacoes[df_votacoes['siglaOrgao'] == 'PLEN'].shape[0]
 print(f'Votações de Plenário: {plenario}')
 
 print(df_votos['voto'].value_counts())
+
+#Teste pra puxar o nome dos deputados
+nome = input('digite o nome do deputado: ')
+nome_deputado = df_votos[df_votos['deputado_nome'] == nome]
+print(nome_deputado[['deputado_nome', 'voto']])
