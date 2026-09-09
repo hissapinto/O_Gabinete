@@ -2,8 +2,6 @@ import requests
 import pandas as pd
 import os
 
-
-
 ano = input('Digite o ano para baixar os dados: ')
 
 url_votos = f'https://dadosabertos.camara.leg.br/arquivos/votacoesVotos/csv/votacoesVotos-{ano}.csv'
