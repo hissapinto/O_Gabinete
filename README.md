@@ -10,7 +10,7 @@
 | | |
 |---|---|
 | **Universidade** | Universidade Presbiteriana Mackenzie — Faculdade de Computação e Informática |
-| **Disciplina** | Laboratório de Engenharia de Software — Turma 6º D |
+| **Disciplina** | Laboratório de Engenharia de Software — Turma 6º D, Teoria dos Grafos — Turma 6º D, Interação Humano-Computador — Turma 6º D |
 | **Professor** | Gustavo Moreira Calixto |
 | **Projeto** | O Gabinete — Mapa de Similaridade Política entre Deputados Federais |
 | **Grupo** | Caio Ariel Cardoso Saraiva (RA 10439611) · Isabela Hissa Pinto (RA 10441873) · Kaique Barros Paiva (RA 10441787) · Mateus Kage Moya (RA 10332608) |
