@@ -273,9 +273,16 @@ AVISO: Alguns endpoints ainda não estão funcionando corretamente...!
 
             elif opcao == "3":
 
-                id_deputado = int(
-                    input("ID do deputado: ")
-                )
+                nome = input("Nome do deputado: ")
+
+                deputados = buscar_deputados(nome)
+
+                if not deputados:
+
+                    print("\n Nenhum deputado encontrado")
+
+                if len(deputados) == 1:
+                    id_deputado = deputados[0]["id"]
 
                 inicio = input(
                     "Data inicial (AAAA-MM-DD): "
