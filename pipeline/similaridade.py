@@ -1,0 +1,1 @@
+# Calcular a matriz de similaridade
