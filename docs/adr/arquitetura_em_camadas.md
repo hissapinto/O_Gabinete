@@ -27,6 +27,7 @@ explícita entre o pipeline de dados e a aplicação.
 ```
 O_Gabinete/
 ├── dados/
+│   ├── brutos/                 CSVs baixados, não versionado
 │   └── grafos.txt              camada de dados
 ├── docs/
 │   ├── adr/                    registros de decisão

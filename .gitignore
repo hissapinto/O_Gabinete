@@ -219,3 +219,11 @@ __marimo__/
 
 # Dados brutos baixados da Câmara
 dados/brutos/
+
+# HTML gerado pelo Pyvis
+*.html
+visual_temp/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
